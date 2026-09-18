@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>О себе — Любитель кино</title>
+  <link rel="stylesheet" href="style.css">
+
+  <style>
+    aside {
+      width: 320px;
+      background-color: var(--color-surface);
+      border-left: 3px solid var(--color-accent);
+      padding: 16px 20px;
+      border-radius: 4px;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="wrapper">
+
+    <header>
+      <h1 style="font-weight: 700;">Дмитрий Вилисов</h1>
+      <p>Любитель кино и сериалов</p>
+    </header>
+
+    <main>
+
+      <img class="avatar" src="avatar.jpg" alt="Портрет автора" width="140" height="140">
+
+      <section class="section">
+        <h2>Навыки</h2>
+        <ul class="skills">
+          <li>Сценарный анализ</li>
+          <li>Понимание операторской работы</li>
+          <li>Монтаж и цветокоррекция</li>
+          <li>Кинокритика</li>
+        </ul>
+      </section>
+
+      <section class="section">
+        <h2>Проекты</h2>
+
+        <div class="projects-grid">
+
+          <article class="project-card">
+            <h3>Альтернативный сценарий для «Матрицы»</h3>
+            <p>Переписал финал трилогии в стиле нуар.</p>
+            <div class="overlay"></div>
+          </article>
+
+          <article class="project-card">
+            <h3>Фанатский трейлер к «Игре престолов»</h3>
+            <p>Смонтировал 2-минутный трейлер последнего сезона.</p>
+            <span class="badge">Top</span>
+            <div class="overlay"></div>
+          </article>
+
+          <article class="project-card">
+            <h3>Ремейк «Крёстного отца» в киберпанке</h3>
+            <p>Концепт-арт и сценарий в антураже Нео-Токио.</p>
+            <div class="overlay"></div>
+          </article>
+
+          <article class="project-card">
+            <h3>Сериал «Друзья» в жанре хоррор</h3>
+            <p>Пилотная серия — 20 минут мрака и саспенса.</p>
+            <div class="overlay"></div>
+          </article>
+
+        </div>
+      </section>
+
+      <aside>
+        <h3>Любимый режиссёр</h3>
+        <p>Кристофер Нолан</p>
+        <p>Любимый жанр — научная фантастика</p>
+        <p><a href="https://www.kinopoisk.ru/" target="_blank">Мой профиль на Кинопоиске</a></p>
+      </aside>
+
+      <form class="feedback">
+        <h3>Обратная связь</h3>
+
+        <label for="name">Имя</label>
+        <input type="text" id="name" name="name" placeholder="Ваше имя">
+
+        <label for="email">Email</label>
+        <input type="email" id="email" name="email" placeholder="you@example.com">
+
+        <label for="message">Сообщение</label>
+        <textarea id="message" name="message" placeholder="Ваше сообщение..."></textarea>
+
+        <button type="submit">Отправить</button>
+      </form>
+
+    </main>
+
+    <footer>
+      <p>&copy; 2026 Дмитрий Вилисов</p>
+    </footer>
+
+  </div>
+
+</body>
+</html>
